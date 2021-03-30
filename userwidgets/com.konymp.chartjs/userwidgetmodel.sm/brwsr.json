@@ -35,7 +35,7 @@
     "containerweight": 69,
     "detecttelnumber": true,
     "enablenativecommunication": true,
-    "enablezoom": false,
+    "enablezoom": true,
     "htmlstring": "Browser",
     "id": "brwsr",
     "info": null,
