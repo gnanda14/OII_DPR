@@ -1,0 +1,17 @@
+{
+    "AS_Button_c5293bbacc23469794e783c5dd1cfa92": {
+        "id": "AS_Button_c5293bbacc23469794e783c5dd1cfa92",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e0a179bc98434a4ea157d842f70f78b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.expand_contract_projectDetails();",
+            "callbackType": null
+        }]
+    }
+}

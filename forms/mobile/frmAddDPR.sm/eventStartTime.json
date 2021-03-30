@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s5ac4ec7b9234d389bb6755b0529eb69",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "hoursView": false
+    },
+    "enablescrolling": true,
+    "id": "eventStartTime",
+    "info": null,
+    "iphone": {
+        "height": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": false,
+    "kuid": "dbaf3a638b3e4739b2e9b7525e1615df",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmAddDPR",
+    "pf": "frmAddDPR",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g93d5e5fcea84621bb819a6c74f61625",
+    "wType": "UserWidgetInstance",
+    "zindex": 16
+}

@@ -1,0 +1,64 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s02944ef972a4e4f8820d96f1d9f360e",
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "children": [
+        "imgAuthUsingTouchID",
+        "lblAuthUsingTouchIDHeader",
+        "lblAuthUsingTouchIdMessage",
+        "flxAuthUsingTouchIdHorizontalLine",
+        "btnCancelAuthUsingTouchId"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAuthentiacteUsingTouchIdPopup",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "h0316139bcbd4e7ca1d205ee6c438c3a",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxPopupMain",
+    "pf": "frmNewLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 6
+}

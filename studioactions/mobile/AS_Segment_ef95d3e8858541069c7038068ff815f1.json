@@ -1,0 +1,30 @@
+{
+    "AS_Segment_ef95d3e8858541069c7038068ff815f1": {
+        "id": "AS_Segment_ef95d3e8858541069c7038068ff815f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af1bf9cb854a40ce954d4a049fe3f651",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSelection.isVisible=true;\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

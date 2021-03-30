@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa7470fbbccd4bb3aa7f85bcd1c14fe4",
+    "_text_": "Last Month",
+    "_top_": {
+        "type": "string",
+        "value": "171dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.33%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5177822ee71447b838eacfdd58e592b",
+    "id": "btnLastMonth",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "dd6209aa162841368d2974476478c00b",
+    "name": "kony.ui.Button",
+    "parent": "flxSelect",
+    "pf": "frmAnalytics",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,218 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_children_": [],
+    "_desktopweb_": {},
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_ipad_": {},
+    "_iphone_": {},
+    "_kiosk_": {},
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "sd336954d8fc4f13a5ff731515976413",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxCoontainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a0d216d9a7384665b800a4d3a96f089a",
+                "srcKUID": "c0c2ffd0fe404adabc9429332cac7f8a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxFilterContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e7f42f38d8194063841dff6d7dcd6eb2",
+                "srcKUID": "h6f0fb0fbad546708abe22b6d8149408",
+                "wType": "FlexContainer"
+            },
+            "maxHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxFilterCross": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee390ef124a140caa1bc38f12bf28894",
+                "srcKUID": "bf74af82487d4060876b088b6cb8be82",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSegServiceLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ed2bfd1f63f24b63a176ffd8cbfd6102",
+                "srcKUID": "f384b1034f1247fb86d799172ec543e6",
+                "wType": "FlexScrollContainer"
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "300dp"
+                }
+            },
+            "maxHeight": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "flxSeparator1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e14fcbb78e2f417ab2a06492e7cf95d8",
+                "srcKUID": "eb23c30e0da7456b81e041a6db956988",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTopHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db3e99f6c771428d8e6122073c5c38f8",
+                "srcKUID": "j35833a69e734d86b4acf135df852667",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgCrossCountryAdd": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i8a9df2f47434d2a81671e4d1ee5755a",
+                "srcKUID": "ge5aa316ba654eaca68c70821f3b6dad",
+                "wType": "Image"
+            },
+            "src": "imgclose.png"
+        },
+        "lblFilters": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i1484e594ecd43c0bbf9aa9448d565b2",
+                "srcKUID": "j0d553d00950497890703e82867093a8",
+                "wType": "Label"
+            },
+            "text": "Source Type"
+        },
+        "listboxData": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ff854e061c354a3fa858d7ce4a046cd6",
+                "srcKUID": "hf81ed7706844340b71cd37db90c33a6",
+                "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "isVisible": false,
+            "right": {
+                "Default": {
+                    "type": "number",
+                    "value": "0"
+                }
+            },
+            "zIndex": {
+                "Default": 15
+            }
+        },
+        "segServiceLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gbce0bacd5424f14ac002bb09b98ec2b",
+                "srcKUID": "f2642abbfffe4d6ca37d7906e04436f9",
+                "wType": "Segment"
+            },
+            "data": {
+                "mobile": [
+                    {
+                        "lblCheck": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        },
+                        "lblValue": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": ""
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "sourceType",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": false,
+    "kuid": "ff854e061c354a3fa858d7ce4a046cd6",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmCreateDPR",
+    "pf": "frmCreateDPR",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "hf81ed7706844340b71cd37db90c33a6",
+    "wType": "UserWidgetInstance",
+    "zindex": 15
+}

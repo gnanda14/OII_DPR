@@ -1,0 +1,11 @@
+var NSPDFViewer={};
+NSPDFViewer.savePDF= function(base64String,pdfName){};
+NSPDFViewer.openPDF= function(pdfName,applicationId){};
+NSPDFViewer.saveDOC= function(base64String,pdfName){};
+NSPDFViewer.openDOC= function(pdfName,applicationId){};
+NSPDFViewer.saveExcel= function(base64String,pdfName){};
+NSPDFViewer.openExcel= function(pdfName,applicationId){};
+NSPDFViewer.openPpt= function(base64String,applicationId){};
+NSPDFViewer.savePpt= function(base64String,pdfName){};
+NSPDFViewer.saveTXT= function(base64String,pdfName){};
+NSPDFViewer.openTXT= function(pdfName,applicationId){};

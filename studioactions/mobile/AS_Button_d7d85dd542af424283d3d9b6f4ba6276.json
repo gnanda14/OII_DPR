@@ -1,0 +1,24 @@
+{
+    "AS_Button_d7d85dd542af424283d3d9b6f4ba6276": {
+        "id": "AS_Button_d7d85dd542af424283d3d9b6f4ba6276",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a994594e586d4fcab1df84018890ae2c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.expand_contract_crewDetails();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

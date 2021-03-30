@@ -1,0 +1,30 @@
+{
+    "AS_Segment_caed4984654b46fe9a8978e5d5f5e8f8": {
+        "id": "AS_Segment_caed4984654b46fe9a8978e5d5f5e8f8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCreateDPR",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a3ef7355870740aeb1d82dfe83f39312"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b56b748193474c4c9125fd42ae6be442",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectingTRCRow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Image_d61da52f8bb84e4ab31c134f702a88bc": {
+        "id": "AS_Image_d61da52f8bb84e4ab31c134f702a88bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d1f61b8d878b4927a889b85e550e4f7d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSelection.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

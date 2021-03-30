@@ -1,0 +1,30 @@
+{
+    "AS_Segment_ga511155ad604eeebe1540fd74506714": {
+        "id": "AS_Segment_ga511155ad604eeebe1540fd74506714",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d4cee556fc514af1982d57d9c770af9e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectingProject();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

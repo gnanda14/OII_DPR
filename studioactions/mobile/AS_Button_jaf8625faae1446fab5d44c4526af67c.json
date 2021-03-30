@@ -1,0 +1,17 @@
+{
+    "AS_Button_jaf8625faae1446fab5d44c4526af67c": {
+        "id": "AS_Button_jaf8625faae1446fab5d44c4526af67c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gd8339d8b83a4afeaf3ef2884af19522",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfApplyFilters();",
+            "callbackType": null
+        }]
+    }
+}

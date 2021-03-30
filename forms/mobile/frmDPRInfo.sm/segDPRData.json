@@ -1,0 +1,217 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgCalendar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "calend.png"
+            },
+            "imgDpr": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dprbottom.png"
+            },
+            "imgRecover": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "recover.png"
+            },
+            "imgSign": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "sgn.png"
+            },
+            "imgtime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "option2.png"
+            },
+            "lblAccept": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblClone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCloneDpr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDRPLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PROJ_909099_89898787"
+            },
+            "lblDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDpr": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblSubmit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "September 12, 2020"
+            },
+            "lblView": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblreportDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Report Date"
+            },
+            "reportDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1990/09/12"
+            },
+            "reportId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PROJ_90909090909_89898988787"
+            },
+            "timeEntries": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23/32/32"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDPRData",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "cb138ff251764048b7cd031220e6ed7c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContainerDPR",
+    "pf": "frmDPRInfo",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "g7cf8218b043425b83a2226eab94d6a1",
+    "rowcounter": 0,
+    "rowfocusskin": "s60bf3bc0dee4a6792513210706a387b",
+    "rowskin": "s4ef3ff2014d4af690c8990eda659a10",
+    "rowtemplate": "flxTempSegDPRHeader",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sb8127d4ed124d5286cfb7034f037297",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxClone": "flxClone",
+        "flxCloneDpr": "flxCloneDpr",
+        "flxContainer": "flxContainer",
+        "flxDPRCard": "flxDPRCard",
+        "flxDPRContainer": "flxDPRContainer",
+        "flxDPRID": "flxDPRID",
+        "flxDPRIcon": "flxDPRIcon",
+        "flxDateTime": "flxDateTime",
+        "flxDelete": "flxDelete",
+        "flxDeleteClone": "flxDeleteClone",
+        "flxDeleteContainer": "flxDeleteContainer",
+        "flxEdit": "flxEdit",
+        "flxEmptySpace": "flxEmptySpace",
+        "flxInfo": "flxInfo",
+        "flxOption": "flxOption",
+        "flxOptionColor": "flxOptionColor",
+        "flxRecoverclone": "flxRecoverclone",
+        "flxSignAccept": "flxSignAccept",
+        "flxSubmit": "flxSubmit",
+        "flxTempSegDPRHeader": "flxTempSegDPRHeader",
+        "flxView": "flxView",
+        "flxoptiondpr": "flxoptiondpr",
+        "imgCalendar": "imgCalendar",
+        "imgDpr": "imgDpr",
+        "imgRecover": "imgRecover",
+        "imgSign": "imgSign",
+        "imgtime": "imgtime",
+        "lblAccept": "lblAccept",
+        "lblClone": "lblClone",
+        "lblCloneDpr": "lblCloneDpr",
+        "lblDRPLabel": "lblDRPLabel",
+        "lblDelete": "lblDelete",
+        "lblDpr": "lblDpr",
+        "lblEdit": "lblEdit",
+        "lblSubmit": "lblSubmit",
+        "lblTime": "lblTime",
+        "lblView": "lblView",
+        "lblreportDate": "lblreportDate",
+        "reportDate": "reportDate",
+        "reportId": "reportId",
+        "timeEntries": "timeEntries"
+    },
+    "zindex": 1
+}

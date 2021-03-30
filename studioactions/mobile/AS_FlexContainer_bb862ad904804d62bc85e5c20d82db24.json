@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_bb862ad904804d62bc85e5c20d82db24": {
+        "id": "AS_FlexContainer_bb862ad904804d62bc85e5c20d82db24",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_aa4dbc2e6c7d4970865218ffd1091612",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onDoneOfTRCPopup();",
+            "callbackType": null
+        }]
+    }
+}

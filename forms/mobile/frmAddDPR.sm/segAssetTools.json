@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnAssetDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgAssetTools": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "crewimg.png"
+            },
+            "lblAssetType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Asset Type"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID"
+            },
+            "lblType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Type"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAssetTools",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "a08da0e66a2c4e0bb19769b4c38fb975",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAssetToolsBody",
+    "pf": "frmAddDPR",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "i44001cc978b4781bc2c6cf926a940e0",
+    "rowcounter": 0,
+    "rowfocusskin": "s60bf3bc0dee4a6792513210706a387b",
+    "rowskin": "s5620ee1a1f04460bca0645cc5b6fc77",
+    "rowtemplate": "flxAssetTools",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sb8127d4ed124d5286cfb7034f037297",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnAssetDelete": "btnAssetDelete",
+        "flxAssetTools": "flxAssetTools",
+        "flxContainer": "flxContainer",
+        "flxDesc": "flxDesc",
+        "imgAssetTools": "imgAssetTools",
+        "lblAssetType": "lblAssetType",
+        "lblId": "lblId",
+        "lblType": "lblType"
+    }
+}

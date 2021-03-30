@@ -1,0 +1,24 @@
+{
+    "AS_Segment_ff608702f2de49a8b8b6fdfdd4025803": {
+        "id": "AS_Segment_ff608702f2de49a8b8b6fdfdd4025803",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a4767dd0b4f04f13b9def28f976efbdf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.getProjects();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

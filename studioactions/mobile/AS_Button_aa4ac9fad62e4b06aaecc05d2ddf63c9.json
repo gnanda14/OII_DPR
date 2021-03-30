@@ -1,0 +1,23 @@
+{
+    "AS_Button_aa4ac9fad62e4b06aaecc05d2ddf63c9": {
+        "id": "AS_Button_aa4ac9fad62e4b06aaecc05d2ddf63c9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b7551b0877c441e1a5f2269780fd56d5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfSubmitDPR();",
+            "callbackType": null
+        }]
+    }
+}

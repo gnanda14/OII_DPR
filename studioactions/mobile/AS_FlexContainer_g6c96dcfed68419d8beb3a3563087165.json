@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_g6c96dcfed68419d8beb3a3563087165": {
+        "id": "AS_FlexContainer_g6c96dcfed68419d8beb3a3563087165",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h84b90af536040559bb58b876eef3d38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfLogout();",
+            "callbackType": null
+        }]
+    }
+}

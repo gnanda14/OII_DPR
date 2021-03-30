@@ -1,0 +1,12 @@
+{
+    "AS_Button_g090facecc734b239344efcb0621846d": {
+        "id": "AS_Button_g090facecc734b239344efcb0621846d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

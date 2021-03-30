@@ -1,0 +1,24 @@
+{
+    "AS_Button_hf0326e8d1cc4509920f9645c8521280": {
+        "id": "AS_Button_hf0326e8d1cc4509920f9645c8521280",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdfecfbb2e0a408ea1aabdb3a4b63a91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7e08045df994ce99e502dce68436cb7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfNotNowInTouchIdPopup();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

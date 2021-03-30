@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_i45d17f5d1cb46178740ae75be126d8e": {
+        "id": "AS_FlexContainer_i45d17f5d1cb46178740ae75be126d8e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_d2a0d0c989c14d96b60388956771bda3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRowIndexValueForEdit",
+            "display": "getRowIndexValueForEdit",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }, {
+                "name": "context",
+                "value": " context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

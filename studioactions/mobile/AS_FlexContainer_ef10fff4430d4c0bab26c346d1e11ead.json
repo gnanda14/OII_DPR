@@ -1,0 +1,24 @@
+{
+    "AS_Button_de2091f6609e4adf93fce03bae8f5d79": {
+        "id": "AS_Button_de2091f6609e4adf93fce03bae8f5d79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOMSLoginDummy",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdfecfbb2e0a408ea1aabdb3a4b63a91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ia810e48e7634203b8ccae3a5a876872",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableTouchId();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

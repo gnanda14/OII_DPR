@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_deff8ae2f134449db4164cf931cb8052": {
+        "id": "AS_FlexContainer_deff8ae2f134449db4164cf931cb8052",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f3fdb1d0027040d291e182208a82d5ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleInTransit();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "HEAD": "w2b08999323e430794f1ea773b836598",
+    "w2b08999323e430794f1ea773b836598": {
+        "children": [
+            "w3773368206a416dbc093521d91f3c5c"
+        ],
+        "kuid": "w2b08999323e430794f1ea773b836598",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "w3773368206a416dbc093521d91f3c5c": {
+        "children": [
+            "we6efb8e6aef41ad8dbddcb15d8b4165",
+            "wd0e95c04d9744d9a3b94e1139a9fb4c",
+            "wc10807f643b465da14372938886cc59",
+            "w925d47689a04c9a96937b4aa95780c1"
+        ],
+        "kuid": "w3773368206a416dbc093521d91f3c5c",
+        "name": "charts",
+        "parent": "w2b08999323e430794f1ea773b836598",
+        "type": "D"
+    },
+    "w925d47689a04c9a96937b4aa95780c1": {
+        "extension": "js",
+        "kuid": "w925d47689a04c9a96937b4aa95780c1",
+        "name": "patternomaly.js",
+        "parent": "w3773368206a416dbc093521d91f3c5c",
+        "type": "F"
+    },
+    "wc10807f643b465da14372938886cc59": {
+        "extension": "js",
+        "kuid": "wc10807f643b465da14372938886cc59",
+        "name": "charts_lib.js",
+        "parent": "w3773368206a416dbc093521d91f3c5c",
+        "type": "F"
+    },
+    "wd0e95c04d9744d9a3b94e1139a9fb4c": {
+        "extension": "js",
+        "kuid": "wd0e95c04d9744d9a3b94e1139a9fb4c",
+        "name": "charts.js",
+        "parent": "w3773368206a416dbc093521d91f3c5c",
+        "type": "F"
+    },
+    "we6efb8e6aef41ad8dbddcb15d8b4165": {
+        "extension": "html",
+        "kuid": "we6efb8e6aef41ad8dbddcb15d8b4165",
+        "name": "charts.html",
+        "parent": "w3773368206a416dbc093521d91f3c5c",
+        "type": "F"
+    }
+}

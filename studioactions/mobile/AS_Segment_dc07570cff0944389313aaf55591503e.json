@@ -1,0 +1,30 @@
+{
+    "AS_Segment_dc07570cff0944389313aaf55591503e": {
+        "id": "AS_Segment_dc07570cff0944389313aaf55591503e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe03062cf27c45a7a8200cb2f96e6a10",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectingCrewMember();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

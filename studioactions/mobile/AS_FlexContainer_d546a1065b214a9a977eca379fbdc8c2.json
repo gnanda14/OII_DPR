@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_d546a1065b214a9a977eca379fbdc8c2": {
+        "id": "AS_FlexContainer_d546a1065b214a9a977eca379fbdc8c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

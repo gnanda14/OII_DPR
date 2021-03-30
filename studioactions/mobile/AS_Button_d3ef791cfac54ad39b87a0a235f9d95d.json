@@ -1,0 +1,18 @@
+{
+    "AS_Button_d3ef791cfac54ad39b87a0a235f9d95d": {
+        "id": "AS_Button_d3ef791cfac54ad39b87a0a235f9d95d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

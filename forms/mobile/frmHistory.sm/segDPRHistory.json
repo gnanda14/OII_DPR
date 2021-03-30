@@ -1,0 +1,153 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "Label0f43b8b0d7d9441": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "dprId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgSign": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "lblSignedby": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblreportDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Report Date : 2005-07-15"
+            },
+            "projectId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "reportDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "99.50%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDPRHistory",
+    "ide_onPull": "AS_Segment_b5a2b6e3e9804fc699b56edc8ed7ba8a",
+    "ide_onPush": "AS_Segment_jf9b1295227b47239be0574df693caa9",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": true
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "b50d9509ca2446d1a99cafff1132cddc",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBody",
+    "pf": "frmHistory",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j2b03e9db1b94ae3922af734118beac4",
+    "rowcounter": 0,
+    "rowfocusskin": "s60bf3bc0dee4a6792513210706a387b",
+    "rowskin": "s4ef3ff2014d4af690c8990eda659a10",
+    "rowtemplate": "flxTempSegHistory",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sb8127d4ed124d5286cfb7034f037297",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": true,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0gbc19fc7830f4c": "FlexContainer0gbc19fc7830f4c",
+        "Label0f43b8b0d7d9441": "Label0f43b8b0d7d9441",
+        "dprId": "dprId",
+        "flxContainer": "flxContainer",
+        "flxDprHsitory": "flxDprHsitory",
+        "flxSign": "flxSign",
+        "flxStatus": "flxStatus",
+        "flxTempSegHistory": "flxTempSegHistory",
+        "imgSign": "imgSign",
+        "lblSignedby": "lblSignedby",
+        "lblStatus": "lblStatus",
+        "lblreportDate": "lblreportDate",
+        "projectId": "projectId",
+        "reportDate": "reportDate"
+    },
+    "zindex": 1
+}

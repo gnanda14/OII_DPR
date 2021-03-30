@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_f8936f7d80214af69e74bc5e204b8557": {
+        "id": "AS_AppEvents_f8936f7d80214af69e74bc5e204b8557",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6d76b946a0846e7a776541b7476068c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var videoDuration = 7;\nvar baseTimeInSeconds = new Date().getTime() / 1000;\nvar currentTimeInSeconds = baseTimeInSeconds;\nwhile (currentTimeInSeconds - baseTimeInSeconds < videoDuration) { \n  currentTimeInSeconds = new Date().getTime() / 1000;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

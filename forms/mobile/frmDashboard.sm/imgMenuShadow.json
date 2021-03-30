@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "101%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-4dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc1cabcc8e5146d2a870c9f31d2381a8",
+    "_src_": "vertical_shadow.png",
+    "_top_": {
+        "type": "string",
+        "value": "-0.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "3.50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmDashboard",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgMenuShadow",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "df2cb1d69d0f436faf2a231270f6ef33",
+    "name": "kony.ui.Image2",
+    "parent": "flxHamburgerMenuInner",
+    "pf": "frmDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 5
+}

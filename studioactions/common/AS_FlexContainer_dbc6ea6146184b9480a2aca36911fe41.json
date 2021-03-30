@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_dbc6ea6146184b9480a2aca36911fe41": {
+        "id": "AS_FlexContainer_dbc6ea6146184b9480a2aca36911fe41",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu5fcc5da525a40af9cb8e95424cc5b2b",
+            "type": "userwidgets",
+            "KUID": "u5fcc5da525a40af9cb8e95424cc5b2b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d21b79d5ddaf458a8582467e405e3738",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.os.deviceInfo().name.toLocaleLowerCase() === \"iphone\"){\n  this.addSignatureCanvas(eventobject);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_fbff68174ddd43469c0a441c45a31e7d": {
+        "id": "AS_FlexContainer_fbff68174ddd43469c0a441c45a31e7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h5e646c735cd48c7a66ae4671519d0bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleHamburgerMenu();",
+            "callbackType": null
+        }]
+    }
+}

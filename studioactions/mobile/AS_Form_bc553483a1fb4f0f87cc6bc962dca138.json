@@ -1,0 +1,24 @@
+{
+    "AS_Form_bc553483a1fb4f0f87cc6bc962dca138": {
+        "id": "AS_Form_bc553483a1fb4f0f87cc6bc962dca138",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddCrew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed227a9b3ac448579eb0ec9de59ff422"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e17e6dc8ebc4441cad712d5e54b8ee1b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.getCrewPositions();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

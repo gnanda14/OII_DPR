@@ -1,0 +1,102 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "83%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s62976e043c341449da10987a8e34f1c",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxProjectId",
+        "FlexContainer0cc930f2aae2d46",
+        "flxCountry",
+        "CopyFlexContainer0j07eeae9562142",
+        "flxRate",
+        "CopyFlexContainer0aa00c5a2a37c4d",
+        "flxServiceLine",
+        "CopyFlexContainer0d82e532d185344",
+        "flxActivity",
+        "CopyFlexContainer0d95bb2715eb64e",
+        "flxManager",
+        "CopyFlexContainer0afc9547e650d44",
+        "flxClient",
+        "CopyFlexContainer0ed1097b60b374e",
+        "flxRegion",
+        "CopyFlexContainer0d9ed3a80d9b54f",
+        "flxStartDate",
+        "CopyFlexContainer0h7fcd90c1f6942",
+        "flxEndDate",
+        "CopyFlexContainer0eeb8cf5751894e",
+        "CopyFlexContainer0ce0f62cf9c6f41",
+        "flxLocation",
+        "CopyFlexContainer0he5d5079249f4b",
+        "flxProjectDescription"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxProjectDetailsBody",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ed1d63fd94f64f4694be962ec3d01d31",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxMain",
+    "pf": "frmCrewProject",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": false,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

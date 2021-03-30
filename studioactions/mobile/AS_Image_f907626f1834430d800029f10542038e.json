@@ -1,0 +1,30 @@
+{
+    "AS_Image_f907626f1834430d800029f10542038e": {
+        "id": "AS_Image_f907626f1834430d800029f10542038e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddCrew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed227a9b3ac448579eb0ec9de59ff422"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aa6d5922ee8c48979b51cd8b90939501",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtCrewSearch.text.length>2)\nthis.getSearchCrewResults(this.view.txtCrewSearch.text);\nelse\nalert(\"Please enter 3 or more characters to search\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,5 @@
+{
+	"NSCameraUsageDescription" : "Open Camera",
+	"NSPhotoLibraryUsageDescription" : "Open Photos",
+	"NSFaceIDUsageDescription": "Use Face ID"
+}

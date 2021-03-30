@@ -1,0 +1,24 @@
+{
+    "AS_Button_bfab00b7f1f944a49a2937a0dc46e754": {
+        "id": "AS_Button_bfab00b7f1f944a49a2937a0dc46e754",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gdfecfbb2e0a408ea1aabdb3a4b63a91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a097af5879994b1e8293248374e57ef7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.dismissPopup();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

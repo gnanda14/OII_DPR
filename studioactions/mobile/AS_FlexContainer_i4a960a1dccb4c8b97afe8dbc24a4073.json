@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_i4a960a1dccb4c8b97afe8dbc24a4073": {
+        "id": "AS_FlexContainer_i4a960a1dccb4c8b97afe8dbc24a4073",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b3d584a016bd478787d26f22684a1a61",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.dismissPopups();",
+            "callbackType": null
+        }]
+    }
+}

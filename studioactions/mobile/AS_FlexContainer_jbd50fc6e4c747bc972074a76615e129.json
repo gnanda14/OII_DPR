@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_jbd50fc6e4c747bc972074a76615e129": {
+        "id": "AS_FlexContainer_jbd50fc6e4c747bc972074a76615e129",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "h5a79a2d2ae5432aa8e9e62c6b32552b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ha931d982ab94260915303cce0651fe4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "applyGestureAndSwipeAnimation",
+            "display": "applyGestureAndSwipeAnimation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

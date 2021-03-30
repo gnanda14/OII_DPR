@@ -1,0 +1,30 @@
+{
+    "AS_Segment_cca2434a6225480c9c5a9b37304f9ae3": {
+        "id": "AS_Segment_cca2434a6225480c9c5a9b37304f9ae3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmAddCrew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed227a9b3ac448579eb0ec9de59ff422"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__faabf2cada3f4339867277d487804df2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectionOfCrew();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

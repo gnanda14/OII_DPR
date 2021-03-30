@@ -1,0 +1,21 @@
+{
+    "AS_Segment_af5e01ab40d64d8ea6aa54b4f5ff3918": {
+        "id": "AS_Segment_af5e01ab40d64d8ea6aa54b4f5ff3918",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onReachingEnd_j5c20150b35e4fcbbc347d0c133c7c81",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getEmployeeSearchEnd",
+            "display": "getEmployeeSearchEnd",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

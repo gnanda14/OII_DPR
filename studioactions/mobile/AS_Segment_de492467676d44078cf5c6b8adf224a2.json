@@ -1,0 +1,30 @@
+{
+    "AS_Segment_de492467676d44078cf5c6b8adf224a2": {
+        "id": "AS_Segment_de492467676d44078cf5c6b8adf224a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c1d57331badb4699bc49ee640a8c655c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectingDPR();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

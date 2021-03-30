@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="sendPushNotifications" passwordencrypted="false" security="public" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://mftst.oii.oceaneering.com/kpns/api/v1/message/push"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Kony-Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="eyAidHlwIjogImp3dCIsICJhbGciOiAiUlMyNTYiIH0.eyAiX2VtYWlsIjogIlJLaGFuZGVsd2FsMkBvY2VhbmVlcmluZy5jb20iLCAiX3ZlciI6ICJ2MS4xIiwgImlzcyI6ICJodHRwczovL21mdHN0Lm9paS5vY2VhbmVlcmluZy5jb206NDQzL2F1dGhTZXJ2aWNlL2FjY291bnRzIiwgIl9zY29wZSI6ICJnIiwgIl9pc3NtZXRhIjogIi9tZXRhZGF0YS9wWmJyVV9UTHpOQllxS09QQi1BUUFnPT0iLCAiX3Nlc3Npb25faWQiOiAiZjZhY2Y0OWEtOGNmYS00MTc4LTk2MGItNGM3YmIyOTA4YWMzIiwgIl9wdWlkIjogNTI0MTE3NzYzMjcyNywgIl9pZHAiOiAiSE9VRE1aQUQiLCAiZXhwIjogMTU3MTMxMTY3OCwgImlhdCI6IDE1NzEzMDgwNzgsICJfc2Vzc2lvbl90aWQiOiAiYWNjb3VudHMiLCAiX3Byb3ZfdXNlcmlkIjogIlJLaGFuZGVsd2FsMkBvY2VhbmVlcmluZy5jb20iLCAianRpIjogImYxNDM2YzQ0LWQ3M2EtNDQ0ZS04YTRjLTFmNWU5YzJiNTQzNiIsICJfYWNzIjogImFjY291bnRzIiB9.CpzBNAVAOJa96LCxJqhmfBbDCzSNdDz8jbcnKAc99YwHJIiZqdjRhzaADBSfLlKDxQeOJLqRXphGCLxsgSlypgKTaDYKNnGAMJH7SZe3JipDUKO3hM8TI0Ydrg1X_Ac_xOPIKYyyLT1UnlXQjyyDOTnVRg_T0Gqo4q8WSvWwqFTp36XK_sT6AHzS1YCXcXCPVs-2xW5U-BcO75qo17ZwRCoxlGI4L0BD8T7lrQ75fI0lqE8E4grvltEo8vo939oWaUE_bZIx8K50_0g9iogSJdE3yzLzVeJIFYnFxVVFDn2V0s1Ki8kBwlaTizy9MV63HvuaF4AvMLSr7ld8ot8BNg" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="appId" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="39e90902-13b4-4c46-a96b-d4c5975bd6d6" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="subscriber" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="[ {             &quot;ksid&quot; : 5616456538558181371           }, {             &quot;ksid&quot; : 5617587254543071684           } ]" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="data" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Test App, Please ignore" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="title" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="PeopleFinder" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="icon" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="clickAction" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="https://mftst.oii.oceaneering.com/apps/PeopleFinder/" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;messageRequest&quot;: {&#10;        &quot;appId&quot;: &quot;$appId&quot;,&#10;        &quot;global&quot;: {},&#10;        &quot;messages&quot;: {&#10;            &quot;message&quot;: {&#10;                &quot;content&quot;: {&#10;                    &quot;priorityService&quot;: &quot;true&quot;,&#10;                    &quot;data&quot;: &quot;$data&quot;,&#10;                    &quot;mimeType&quot;: &quot;text/plain&quot;&#10;                },&#10;                &quot;overrideMessageId&quot;: 0,&#10;                &quot;startTimestamp&quot;: &quot;0&quot;,&#10;                &quot;expiryTimestamp&quot;: &quot;0&quot;,&#10;                &quot;subscribers&quot;: {&#10;                    &quot;subscriber&quot;: $subscriber&#10;                },&#10;                &quot;platformSpecificProps&quot;: {&#10;                    &quot;title&quot;: &quot;$title&quot;,&#10;                    &quot;iphone&quot;: {&#10;                        &quot;title&quot;: &quot;$title&quot;,&#10;                        &quot;customData&quot;: {}&#10;                    },&#10;                    &quot;blackberry&quot;: {},&#10;                    &quot;android&quot;: {&#10;                        &quot;title&quot;: &quot;$title&quot;&#10;                    },&#10;                    &quot;jpush&quot;: {&#10;                        &quot;key&quot;: [&#10;                            {&#10;                                &quot;name&quot;: &quot;$title&quot;,&#10;                                &quot;value&quot;: &quot;$title&quot;&#10;                            }&#10;                        ]&#10;                    },&#10;                    &quot;windows&quot;: {&#10;                        &quot;notificationType&quot;: &quot;TOAST&quot;,&#10;                        &quot;text1&quot;: &quot;$title&quot;,&#10;                        &quot;text2&quot;: &quot;$data&quot;,&#10;                        &quot;params&quot;: {}&#10;                    },&#10;                    &quot;wns&quot;: {&#10;                        &quot;notificationType&quot;: &quot;TOAST&quot;,&#10;                        &quot;text1&quot;: &quot;$title&quot;,&#10;                        &quot;text2&quot;: &quot;$data&quot;,&#10;                        &quot;params&quot;: {},&#10;                        &quot;image&quot;: {},&#10;                        &quot;text&quot;: {}&#10;                    },&#10;                    &quot;webfcm&quot;: {&#10;                        &quot;icon&quot;: &quot;$icon&quot;,&#10;                        &quot;clickAction&quot;: &quot;$clickAction&quot;&#10;                    }&#10;                },&#10;                &quot;type&quot;: &quot;PUSH&quot;&#10;            }&#10;        }&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;messageRequest&quot;: {&#10;        &quot;appId&quot;: &quot;$appId&quot;,&#10;        &quot;global&quot;: {},&#10;        &quot;messages&quot;: {&#10;            &quot;message&quot;: {&#10;                &quot;content&quot;: {&#10;                    &quot;priorityService&quot;: &quot;true&quot;,&#10;                    &quot;data&quot;: &quot;$data&quot;,&#10;                    &quot;mimeType&quot;: &quot;text/plain&quot;&#10;                },&#10;                &quot;overrideMessageId&quot;: 0,&#10;                &quot;startTimestamp&quot;: &quot;0&quot;,&#10;                &quot;expiryTimestamp&quot;: &quot;0&quot;,&#10;                &quot;subscribers&quot;: {&#10;                    &quot;subscriber&quot;: $subscriber&#10;                },&#10;                &quot;platformSpecificProps&quot;: {&#10;                    &quot;title&quot;: &quot;$title&quot;,&#10;                    &quot;iphone&quot;: {&#10;                        &quot;title&quot;: &quot;$title&quot;,&#10;                        &quot;customData&quot;: {}&#10;                    },&#10;                    &quot;blackberry&quot;: {},&#10;                    &quot;android&quot;: {&#10;                        &quot;title&quot;: &quot;$title&quot;&#10;                    },&#10;                    &quot;jpush&quot;: {&#10;                        &quot;key&quot;: [&#10;                            {&#10;                                &quot;name&quot;: &quot;$title&quot;,&#10;                                &quot;value&quot;: &quot;$title&quot;&#10;                            }&#10;                        ]&#10;                    },&#10;                    &quot;windows&quot;: {&#10;                        &quot;notificationType&quot;: &quot;TOAST&quot;,&#10;                        &quot;text1&quot;: &quot;$title&quot;,&#10;                        &quot;text2&quot;: &quot;$data&quot;,&#10;                        &quot;params&quot;: {}&#10;                    },&#10;                    &quot;wns&quot;: {&#10;                        &quot;notificationType&quot;: &quot;TOAST&quot;,&#10;                        &quot;text1&quot;: &quot;$title&quot;,&#10;                        &quot;text2&quot;: &quot;$data&quot;,&#10;                        &quot;params&quot;: {},&#10;                        &quot;image&quot;: {},&#10;                        &quot;text&quot;: {}&#10;                    },&#10;                    &quot;webfcm&quot;: {&#10;                        &quot;icon&quot;: &quot;$icon&quot;,&#10;                        &quot;clickAction&quot;: &quot;$clickAction&quot;&#10;                    }&#10;                },&#10;                &quot;type&quot;: &quot;PUSH&quot;&#10;            }&#10;        }&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset defaultvalue="" id="details" order="" paramOrder="0" parentOrder="0" src="$.details[*]" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="description" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="description" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="msgId" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="msgId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="refId" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="refId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="$.message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="0" parentOrder="0" passnull="false" sms-name="" src="$.id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

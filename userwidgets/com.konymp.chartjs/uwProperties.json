@@ -1,0 +1,468 @@
+{
+    "classname": "chartjs",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i7e0fb8bda134ab7ba10d81f158138aa",
+                    "paramList": [
+                        {
+                            "name": "noOfColums"
+                        },
+                        {
+                            "name": "dataObject"
+                        },
+                        {
+                            "name": "globalConfigurations"
+                        }
+                    ],
+                    "propertyKey": "createChart",
+                    "pw": {
+                        "displayName": "createChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g0aca56c5bb84ce3b756d1011b63adcf",
+                    "paramList": [],
+                    "propertyKey": "render",
+                    "pw": {
+                        "displayName": "render",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jab17daf6dd549f8a035866f3216efd2",
+                    "paramList": [
+                        {
+                            "name": "errorObject"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "errorCallback",
+                    "pw": {
+                        "displayName": "errorCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Data",
+                "Desktop Web and Tablet view ( Not applicable if component is used to display a single chart )",
+                "Title",
+                "Legend",
+                "Animation",
+                "Font"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Title",
+                    "kuid": "bb902bbc75b141968ebdbe0e14fae089",
+                    "originalPropertyKey": "enableTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableTitle",
+                    "pw": {
+                        "displayName": "Enable Title",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Legend",
+                    "kuid": "b1a561185d894571a30cecd88e4b75e1",
+                    "originalPropertyKey": "enableLegend",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableLegend",
+                    "pw": {
+                        "displayName": "Enable Legend",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1000,
+                    "group": "Animation",
+                    "kuid": "j78dc39fe13446c0ab91cf98016d00f5",
+                    "originalPropertyKey": "duration",
+                    "propertyIndex": 1,
+                    "propertyKey": "duration",
+                    "pw": {
+                        "displayName": "Duration in milliseconds",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "3",
+                    "group": "Desktop Web and Tablet view ( Not applicable if component is used to display a single chart )",
+                    "kuid": "aa03d7676cbb41a9bbcdcdb487d79301",
+                    "originalPropertyKey": "noOfColumns",
+                    "propertyIndex": 1,
+                    "propertyKey": "noOfColumns",
+                    "pw": {
+                        "displayName": "Number of Columns",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "bgColor": "#ffffff",
+                                "chartType": "Line",
+                                "color": "#169fda",
+                                "data": "[3000,2900,3300,3400,2800,2780,2550]",
+                                "labels": "[January,February,March,April,May,June,July]",
+                                "title": "Spending Trend (USD)"
+                            },
+                            {
+                                "bgColor": "#ffffff",
+                                "chartType": "Doughnut",
+                                "color": "[#169fda, #f36b25, #77be43, #ffc522, #97cce9]",
+                                "data": "[250,190,120,100,80]",
+                                "labels": "[Travel,Food & Dining,Shopping,Bills, Health & Fitness]",
+                                "title": "Spend by Category (USD)"
+                            },
+                            {
+                                "bgColor": "#ffffff",
+                                "chartType": "Vertical Bar",
+                                "color": "#77be43",
+                                "data": "[4500,4000,3500,3600,3400,3350,3800]",
+                                "labels": "[January,February,March,April,May,June,July]",
+                                "title": "Net Income over time (USD)"
+                            },
+                            {
+                                "bgColor": "",
+                                "chartType": "Horizontal Bar",
+                                "color": "#77be43",
+                                "data": "[199,250,220,255,230]",
+                                "labels": "[Travel,Food & Dining,Shopping,Bills, Health & Fitness]",
+                                "title": "Budget (USD)"
+                            },
+                            {
+                                "bgColor": "",
+                                "chartType": "Radar",
+                                "color": "Budget:[#77be43],Spending:[#169fda]",
+                                "data": "Budget:[199,250,220,255,230],Spending: [250,190,120,100,80]",
+                                "labels": "[Travel,Food & Dining,Shopping,Bills, Health & Fitness]",
+                                "title": "Budget vs Spending (USD)"
+                            },
+                            {
+                                "bgColor": "",
+                                "chartType": "PolarArea",
+                                "color": "[#f36b25, #77be43, #ffc522, #97cce9]",
+                                "data": "[190,170,140,115]",
+                                "labels": "[Week 1, Week 2,Week 3,Week 4]",
+                                "title": "Week over Week Spending (USD)"
+                            },
+                            {
+                                "bgColor": "",
+                                "chartType": "Pie",
+                                "color": "[#97cce9,#ffc522,#77be43, #f36b25,#169fda]",
+                                "data": "[45,60,80,110,145]",
+                                "labels": "[Starbucks,iTunes,Uber,Amazon,Walmart]",
+                                "title": "Spend by Merchants (USD)"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Chart Title",
+                                "columnHeaderType": "text",
+                                "columnID": "title",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "j6197f3380ec484b8afb88074db9a145"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Chart Type",
+                                "columnHeaderType": "text",
+                                "columnID": "chartType",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "af26e516a4e04d05997bd01d0636602b"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Chart Labels",
+                                "columnHeaderType": "text",
+                                "columnID": "labels",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "dc380bd1857b414b871981c630ce3433"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Chart Data",
+                                "columnHeaderType": "text",
+                                "columnID": "data",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "d27e4506b4774b5c81ab5ff76e09fb16"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Color",
+                                "columnHeaderType": "text",
+                                "columnID": "color",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "fcb02cf99b7c4dcd82769056845d566b"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Background Color",
+                                "columnHeaderType": "text",
+                                "columnID": "bgColor",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "eb549f95677149b7bb50cb8f1ec791d7"
+                            }
+                        ]
+                    },
+                    "group": "Data",
+                    "kuid": "fa3865f3357e4e5e8f1565ad640ec4e8",
+                    "originalPropertyKey": "gridChartDataSet",
+                    "propertyIndex": 1,
+                    "propertyKey": "gridChartDataSet",
+                    "pw": {
+                        "displayName": "DataSet",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "data grid",
+                    "value": 6
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "12",
+                    "group": "Font",
+                    "kuid": "c096adf1a9ea431cb98deeef8cdd9ac5",
+                    "originalPropertyKey": "fontSize",
+                    "propertyIndex": 1,
+                    "propertyKey": "fontSize",
+                    "pw": {
+                        "displayName": "Font Size",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "aac0e9acbb3249f8988b252b1a0be3d2",
+                    "originalPropertyKey": "renderType",
+                    "propertyIndex": 1,
+                    "propertyKey": "renderType",
+                    "pw": {
+                        "displayName": "Render Automatic",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#000000",
+                    "group": "Font",
+                    "kuid": "abc5e4a55ebe4846b818ceedc1822317",
+                    "originalPropertyKey": "fontColor",
+                    "propertyIndex": 2,
+                    "propertyKey": "fontColor",
+                    "pw": {
+                        "displayName": "Font Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "top",
+                    "group": "Title",
+                    "kuid": "cbc036667c0046feb0e217f584e8df1a",
+                    "originalPropertyKey": "titlePosition",
+                    "propertyIndex": 2,
+                    "propertyKey": "titlePosition",
+                    "pw": {
+                        "displayName": "Position",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "list selector",
+                    "value": [
+                        "top",
+                        "bottom",
+                        "left",
+                        "right"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "top",
+                    "group": "Legend",
+                    "kuid": "aec34967544b4018912812c063a863be",
+                    "originalPropertyKey": "legendPosition",
+                    "propertyIndex": 2,
+                    "propertyKey": "legendPosition",
+                    "pw": {
+                        "displayName": "Position",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "list selector",
+                    "value": [
+                        "top",
+                        "left",
+                        "right",
+                        "bottom"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "easeOutQuart",
+                    "group": "Animation",
+                    "kuid": "abb5e5daf29a48c795c38359ad347f86",
+                    "originalPropertyKey": "easing",
+                    "propertyIndex": 2,
+                    "propertyKey": "easing",
+                    "pw": {
+                        "displayName": "Easing",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "list selector",
+                    "value": [
+                        "easeOutQuart",
+                        "linear",
+                        "easeInQuad",
+                        "easeOutQuad",
+                        "easeInOutQuad",
+                        "easeInCubic",
+                        "easeOutCubic",
+                        "easeInOutCubic",
+                        "easeInQuart",
+                        "easeOutQuart",
+                        "easeInOutQuart",
+                        "easeInQuint",
+                        "easeOutQuint",
+                        "easeInOutQuint",
+                        "easeInSine",
+                        "easeOutSine",
+                        "easeInOutSine",
+                        "easeInExpo",
+                        "easeOutExpo",
+                        "easeInOutExpo",
+                        "easeInCirc",
+                        "easeOutCirc",
+                        "easeInOutCirc",
+                        "easeInElastic",
+                        "easeOutElastic",
+                        "easeInOutElastic",
+                        "easeInBack",
+                        "easeOutBack",
+                        "easeInOutBack",
+                        "easeInBounce",
+                        "easeOutBounce",
+                        "easeInOutBounce"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Helvetica",
+                    "group": "Font",
+                    "kuid": "f6e6568d8490421ba28e512c6f5d47b8",
+                    "originalPropertyKey": "fontFamily",
+                    "propertyIndex": 3,
+                    "propertyKey": "fontFamily",
+                    "pw": {
+                        "displayName": "Font Family",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "list selector",
+                    "value": [
+                        "Arial",
+                        "Helvetica",
+                        "sans-serif",
+                        "Helvetica Neue"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "normal",
+                    "group": "Font",
+                    "kuid": "fd0ea4f5d58842aa85810fd98fff09df",
+                    "originalPropertyKey": "fontStyle",
+                    "propertyIndex": 4,
+                    "propertyKey": "fontStyle",
+                    "pw": {
+                        "displayName": "Font Style",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b7d0e247325a4fd791704988e872714e",
+                    "type": "list selector",
+                    "value": [
+                        "normal",
+                        "bold"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

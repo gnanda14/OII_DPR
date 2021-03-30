@@ -1,0 +1,17 @@
+{
+    "AS_Segment_b4e68a17b74e4616847f69f18fc6d110": {
+        "id": "AS_Segment_b4e68a17b74e4616847f69f18fc6d110",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onPull_cb6e38608a664373852595cd728ada94",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.getDPRs(this.view.lblProjectIdValue.text);",
+            "callbackType": null
+        }]
+    }
+}

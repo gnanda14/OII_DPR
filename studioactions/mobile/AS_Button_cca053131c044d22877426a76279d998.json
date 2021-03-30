@@ -1,0 +1,20 @@
+{
+    "AS_Button_cca053131c044d22877426a76279d998": {
+        "id": "AS_Button_cca053131c044d22877426a76279d998",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_hf890b02ff1e400eae9fe905ed8afa8b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfSubmitDPR();",
+            "callbackType": null
+        }]
+    }
+}

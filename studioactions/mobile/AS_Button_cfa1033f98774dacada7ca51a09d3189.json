@@ -1,0 +1,17 @@
+{
+    "AS_Button_cfa1033f98774dacada7ca51a09d3189": {
+        "id": "AS_Button_cfa1033f98774dacada7ca51a09d3189",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ac57350d1b9f474eac989d79e8ef4b3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableTouchId();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,248 @@
+{
+    "classname": "timepicker",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "daf851de73ac48849340227ce5994b68",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j333fc18ddaa402791d465901eff4ee3",
+                    "paramList": [],
+                    "propertyKey": "hide",
+                    "pw": {
+                        "displayName": "hide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i70b408456f14dd5abdfc2903aa03482",
+                    "paramList": [],
+                    "propertyKey": "getTime",
+                    "pw": {
+                        "displayName": "getTime",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bf227c6637404562b4a75e9d28a163d6",
+                    "paramList": [
+                        {
+                            "name": "time"
+                        }
+                    ],
+                    "propertyKey": "setTime",
+                    "pw": {
+                        "displayName": "setTime",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "j99aced735e24347bc2db2f9941c9967",
+                    "paramList": [
+                        {
+                            "name": "color"
+                        }
+                    ],
+                    "propertyKey": "setBackgroundColor",
+                    "pw": {
+                        "displayName": "setBackgroundColor",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                },
+                {
+                    "group": "Android",
+                    "kuid": "d50d9b121b46492d8e6c84a646629bf2",
+                    "paramList": [],
+                    "propertyKey": "is24HoursView",
+                    "pw": {
+                        "displayName": "is24HoursView",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a8b60cccf62547149ddc74ceab5d1772",
+                    "paramList": [
+                        {
+                            "name": "time"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTimeChanged",
+                    "pw": {
+                        "displayName": "onTimeChanged",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cd038b8388714941a05005aa99fed748",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onCancel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCancel",
+                        "srcWidget": "btnBottomNotNow",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b11314e6464d48edacae90cd01e6e6a3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c4b60365bf7249d280e446bdead8d15f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onApply",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onApply",
+                        "srcWidget": "btnBottomEnable",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "fd13b8339e14436190ef03978a6d3789"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General",
+                "Android"
+            ],
+            "events": [
+                "Android"
+            ],
+            "properties": [
+                "Android"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g46a0698a183460ab8220f4d22047072",
+                    "originalPropertyKey": "bgColor",
+                    "propertyIndex": 1,
+                    "propertyKey": "bgColor",
+                    "pw": {
+                        "displayName": "Background Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Android",
+                    "kuid": "f7bd64886a904f6793b2a70782ed6a38",
+                    "originalPropertyKey": "hoursView",
+                    "propertyIndex": 1,
+                    "propertyKey": "hoursView",
+                    "pw": {
+                        "displayName": "Twenty Four Hours Format",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a06c7dfbecbc4b719e3c10072b117289",
+                    "originalPropertyKey": "time",
+                    "propertyIndex": 2,
+                    "propertyKey": "time",
+                    "pw": {
+                        "displayName": "Set Time",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "a0f8da4591604430a292da042cc3ee0e",
+                    "originalPropertyKey": "invokeByDefault",
+                    "propertyIndex": 3,
+                    "propertyKey": "invokeByDefault",
+                    "pw": {
+                        "displayName": "Invoke by Default",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "g93d5e5fcea84621bb819a6c74f61625",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "fd4f8fa33afb45ecb9b16dccc7450ec3",
+                    "propertyKey": "btnApply",
+                    "srcWgtKUID": "fd13b8339e14436190ef03978a6d3789"
+                },
+                {
+                    "kuid": "b75b3d66801648f9a65c99a7f4c5830a",
+                    "propertyKey": "btnCancel",
+                    "srcWgtKUID": "b11314e6464d48edacae90cd01e6e6a3"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

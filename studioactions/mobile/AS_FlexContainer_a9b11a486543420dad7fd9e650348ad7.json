@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_a9b11a486543420dad7fd9e650348ad7": {
+        "id": "AS_FlexContainer_a9b11a486543420dad7fd9e650348ad7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gb92babe700d427b90dc537c2f4927a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.toggleFilters(this.view.flxFiltersOuter.isVisible);",
+            "callbackType": null
+        }]
+    }
+}

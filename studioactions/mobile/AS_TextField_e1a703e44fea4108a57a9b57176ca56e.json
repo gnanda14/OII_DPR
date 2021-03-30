@@ -1,0 +1,29 @@
+{
+    "AS_TextField_e1a703e44fea4108a57a9b57176ca56e": {
+        "id": "AS_TextField_e1a703e44fea4108a57a9b57176ca56e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "i7890133ccc14c98ab06c409995c7189"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cbbf1d5c771244edb5df2c32f91f0e42",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " this.view.flxLoginErrorMessage.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

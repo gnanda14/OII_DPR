@@ -1,0 +1,200 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "empId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "empName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgAddDPR": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "delete_redd.png"
+            },
+            "imgCrewOrSupervisor": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "imgDeleteCrew": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "jobPosition": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblClientOTHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblDprId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblNormalHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblOIIOTHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblStandbyHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "nonDiveRate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "normalRate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "otRate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "standbyRate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCrewDetail",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "ed37a854ea704f21886e5c62629c2fd9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContainerCrew",
+    "pf": "frmDPRInfo",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "cd8e9ec9a8ee4f49897b4a4f7c74f4c6",
+    "rowcounter": 0,
+    "rowfocusskin": "s60bf3bc0dee4a6792513210706a387b",
+    "rowskin": "s4ef3ff2014d4af690c8990eda659a10",
+    "rowtemplate": "flxSegCrewDetails",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sb8127d4ed124d5286cfb7034f037297",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyFlexContainer0e4577f1867e942": "CopyFlexContainer0e4577f1867e942",
+        "CopyFlexContainer0f328884b722a41": "CopyFlexContainer0f328884b722a41",
+        "CopyFlexContainer0j14a9333e6d245": "CopyFlexContainer0j14a9333e6d245",
+        "FlexContainer0d4f90ec95ce741": "FlexContainer0d4f90ec95ce741",
+        "empId": "empId",
+        "empName": "empName",
+        "flxAddDpr": "flxAddDpr",
+        "flxClientOTHours": "flxClientOTHours",
+        "flxCrewDetailsCard": "flxCrewDetailsCard",
+        "flxDelete": "flxDelete",
+        "flxDetails": "flxDetails",
+        "flxEdit": "flxEdit",
+        "flxEditDelContainer": "flxEditDelContainer",
+        "flxHours": "flxHours",
+        "flxNormalHours": "flxNormalHours",
+        "flxOIIOtHours": "flxOIIOtHours",
+        "flxSegCrewDetails": "flxSegCrewDetails",
+        "flxStandbyHours": "flxStandbyHours",
+        "imgAddDPR": "imgAddDPR",
+        "imgCrewOrSupervisor": "imgCrewOrSupervisor",
+        "imgDeleteCrew": "imgDeleteCrew",
+        "jobPosition": "jobPosition",
+        "lblClientOTHours": "lblClientOTHours",
+        "lblDelete": "lblDelete",
+        "lblDprId": "lblDprId",
+        "lblEdit": "lblEdit",
+        "lblNormalHours": "lblNormalHours",
+        "lblOIIOTHours": "lblOIIOTHours",
+        "lblStandbyHours": "lblStandbyHours",
+        "nonDiveRate": "nonDiveRate",
+        "normalRate": "normalRate",
+        "otRate": "otRate",
+        "standbyRate": "standbyRate"
+    },
+    "zindex": 1
+}

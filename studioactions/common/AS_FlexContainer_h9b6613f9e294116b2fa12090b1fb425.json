@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_h9b6613f9e294116b2fa12090b1fb425": {
+        "id": "AS_FlexContainer_h9b6613f9e294116b2fa12090b1fb425",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ud64d5f180f14c83802119145c023138",
+            "name": "uwud64d5f180f14c83802119145c023138"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ia4b05d2b11244c684259e6d5b65677f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nthis.viewAdded = false;\n//#endif\nif(this.invokeByDefault)\n  \tthis.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

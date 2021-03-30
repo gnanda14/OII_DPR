@@ -1,0 +1,28 @@
+{
+    "AS_Segment_b5a2b6e3e9804fc699b56edc8ed7ba8a": {
+        "id": "AS_Segment_b5a2b6e3e9804fc699b56edc8ed7ba8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHistory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a44b1ef4f8e245e6ad37f9c96e4d6cba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e0132dfae66b427f9e3cd39925b7b2f9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getDPRHistory",
+            "display": "getDPRHistory",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

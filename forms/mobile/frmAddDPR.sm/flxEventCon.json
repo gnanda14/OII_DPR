@@ -1,0 +1,81 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sad115ab4b9c44459ce4adc827bb1122",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxHeaderPersonnel",
+        "flxInTransit",
+        "CopyFlexContainer0c911f369025746",
+        "flxName",
+        "FlexContainer0cc930f2aae2d46",
+        "flxEventStart",
+        "flxSeparatorEnd",
+        "flxEventENd",
+        "CopyFlexContainer0d516268ebdd64b",
+        "flxEventTypeList",
+        "CopyFlexContainer0cc269a660e4942",
+        "flxDescriptionSep0",
+        "CopyFlexContainer0cb56a0961d6140",
+        "flxEventActivity",
+        "flxDescriptionSep1",
+        "CopyFlexContainer0a1577bd342874e",
+        "flxEventDive",
+        "CopyFlexContainer0d06f83c0ce4646",
+        "flxEventDiveDepth",
+        "CopyFlexContainer0bc22e80414f349",
+        "flxEventUO",
+        "CopyFlexContainer0e713c60845bc44"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxEventCon",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da304dc1b0b54fbc8b6ec40f24152308",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxEventsContainer",
+    "pf": "frmAddDPR",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

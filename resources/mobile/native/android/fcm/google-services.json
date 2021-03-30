@@ -1,0 +1,185 @@
+{
+  "project_info": {
+    "project_number": "105696236662",
+    "firebase_url": "https://goatjoker-1eb32.firebaseio.com",
+    "project_id": "goatjoker-1eb32",
+    "storage_bucket": "goatjoker-1eb32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:00082e595133adec07fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.OIIEmployee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:b6538122649c2f2807fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.OIISchedulelink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:1b9724b1c49c760a07fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.Paychecks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:dc4ad7340a143e4407fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.myapprovals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:f13953466df3645e07fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.mytime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105696236662:android:f1b345d7d77cdcf007fb57",
+        "android_client_info": {
+          "package_name": "com.oceaneering.oms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105696236662-5a4mmrtat2mdh4c37j061aio58g3euq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQuoiR8Pgx8JmgU0f_h8gKvk0XJOemco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105696236662-lcla0fsfl057jmtkf5blkcimcomsgii5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

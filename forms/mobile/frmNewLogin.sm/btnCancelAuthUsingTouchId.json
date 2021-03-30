@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "-2"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se6287d1959e4220809c9dc6b308b9c8",
+    "_text_": "Cancel",
+    "_width_": {
+        "type": "string",
+        "value": "102%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s6c8861a22fe42478a0e4fdae441b6eb",
+    "id": "btnCancelAuthUsingTouchId",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a5cbb65038864c45ab5e2fe166d7a56b",
+    "name": "kony.ui.Button",
+    "parent": "flxAuthentiacteUsingTouchIdPopup",
+    "pf": "frmNewLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

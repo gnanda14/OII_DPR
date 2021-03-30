@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "46dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sad115ab4b9c44459ce4adc827bb1122",
+    "_top_": {
+        "type": "string",
+        "value": "61dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxNormalHours",
+        "CopyFlexContainer0j14a9333e6d245",
+        "flxStandbyHours",
+        "CopyFlexContainer0f328884b722a41",
+        "flxOIIOtHours",
+        "CopyFlexContainer0e4577f1867e942",
+        "flxClientOTHours"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxHours",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "je9f8ee8472d4469bde99fc8397c4127",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxCrewDetailsCard",
+    "pf": "tempSegCrewDetail",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

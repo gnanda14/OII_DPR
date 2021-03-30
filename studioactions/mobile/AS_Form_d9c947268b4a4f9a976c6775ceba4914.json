@@ -1,0 +1,23 @@
+{
+    "AS_Form_d9c947268b4a4f9a976c6775ceba4914": {
+        "id": "AS_Form_d9c947268b4a4f9a976c6775ceba4914",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddDPR",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j012640ca94f4871b17d0f81496d7953"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_fbb0c3021e634fbdabe2021691ef146c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.decimalTextBox();\n//#ifdef iphone\nthis.view.chxkbxTRCList.top=\"-12%\";\n//#endif\n",
+            "callbackType": null
+        }]
+    }
+}

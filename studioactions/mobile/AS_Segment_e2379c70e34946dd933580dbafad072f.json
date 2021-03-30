@@ -1,0 +1,28 @@
+{
+    "AS_Segment_e2379c70e34946dd933580dbafad072f": {
+        "id": "AS_Segment_e2379c70e34946dd933580dbafad072f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateDPR",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a3ef7355870740aeb1d82dfe83f39312"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a1bdcca34fce474680650352c68b9b03",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getEmployeeOnReachingEnd",
+            "display": "getEmployeeOnReachingEnd",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

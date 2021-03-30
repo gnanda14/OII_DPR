@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_fbd87f0db1614b7fae666e86c5754ce5": {
+        "id": "AS_FlexContainer_fbd87f0db1614b7fae666e86c5754ce5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j32a45aa94d948f88cdb762a3a8d2207"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a6f2e703f57c4861aa5cbbef47894cdf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfRole(\"crew\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

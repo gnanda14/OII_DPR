@@ -1,0 +1,37 @@
+{
+    "AS_Button_f59a60ae84bd44f7b3cde8aff56cb6d1": {
+        "id": "AS_Button_f59a60ae84bd44f7b3cde8aff56cb6d1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempSegCrewDetail",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cd8e9ec9a8ee4f49897b4a4f7c74f4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a9a5b2d25fd34247afff08c080de7aa3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRowIndexValueForEdit",
+            "display": "getRowIndexValueForEdit",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }, {
+                "name": "context",
+                "value": " context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

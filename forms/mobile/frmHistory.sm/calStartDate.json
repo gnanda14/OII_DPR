@@ -1,0 +1,113 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calander.png",
+    "__id": "frmHistory_calStartDate",
+    "__input": "calStartDate",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": "29/7/2019",
+    "_height_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s408c21f4d1843a1942abcc38cb8aa97",
+    "_width_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "advview": "default",
+    "calendaricon": "calander.png",
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "45%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        29,
+        7,
+        2019,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "yyyy/MM/dd",
+    "datesGroup": [],
+    "datesState": 0,
+    "day": 29,
+    "daytextalignmentincell": 5,
+    "disabledSkins": {},
+    "displayedMonths": [
+        7,
+        2019
+    ],
+    "entereddate": [
+        29,
+        7,
+        2019,
+        0,
+        0,
+        0
+    ],
+    "focusskin": "s408c21f4d1843a1942abcc38cb8aa97",
+    "format": "yyyy/MM/dd",
+    "formatteddate": "2019/07/29",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calStartDate",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j7d2aec8340a402e83a285d2077e183f",
+    "minutes": 0,
+    "month": 7,
+    "monthsinrow": 3,
+    "name": "kony.ui.Calendar",
+    "navigatorAlert": "Invalid Selection",
+    "noofmonths": 1,
+    "paddinginpixel": false,
+    "pagedate": "/2019",
+    "parent": "flxFilters",
+    "pf": "frmHistory",
+    "popupHeight": "auto",
+    "popupWidth": "auto",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2019",
+    "startDay": 0,
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "widths": [
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;"
+    ],
+    "year": 2019,
+    "zindex": 1
+}

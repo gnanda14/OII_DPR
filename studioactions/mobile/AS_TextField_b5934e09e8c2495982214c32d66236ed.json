@@ -1,0 +1,27 @@
+{
+    "AS_TextField_b5934e09e8c2495982214c32d66236ed": {
+        "id": "AS_TextField_b5934e09e8c2495982214c32d66236ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmAddCrew",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed227a9b3ac448579eb0ec9de59ff422"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hc0bafa3bcb843198b6a07a1583c71f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtCrewSearch.text.length==0)\n  {\n    if(this.view.flxCrewResultShadow.isVisible==true)\n    {\n      this.view.flxCrewResultShadow.isVisible=false;\n      this.view.flxSearchCrewResults.isVisible=false;  \n    }\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "330dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s061968287b346caa6c9ea88c3808056",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmAddDPR",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgShow",
+    "imagescalemode": 1,
+    "imagewhenfailed": "imagedrag.png",
+    "imagewhiledownloading": "imagedrag.png",
+    "info": null,
+    "invokedProperty": "imageWhileDownloading",
+    "iphone": {
+        "psp": {
+            "cacheConfig": {
+                "cachePolicy": 3,
+                "cacheStoragePolicy": 1
+            }
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cfdeb1056836495296c6e43f8cb7ede9",
+    "name": "kony.ui.Image2",
+    "parent": "flxGalleryLargerView",
+    "pf": "frmAddDPR",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

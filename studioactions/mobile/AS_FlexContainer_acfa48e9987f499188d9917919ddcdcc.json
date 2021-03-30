@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_acfa48e9987f499188d9917919ddcdcc": {
+        "id": "AS_FlexContainer_acfa48e9987f499188d9917919ddcdcc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f9d08d96bf2c4c40bdf6a56afdd908d4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRowIndexValueForDelete",
+            "display": "getRowIndexValueForDelete",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }, {
+                "name": "context",
+                "value": " context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

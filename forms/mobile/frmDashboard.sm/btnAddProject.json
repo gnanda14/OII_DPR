@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s9ba439e0a79491da502bebcdf53aba1",
+    "_text_": "Sync / Add Project",
+    "_width_": {
+        "type": "string",
+        "value": "47%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s881ea795e3c41fca4ce21d96bd18626",
+    "id": "btnAddProject",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "de9bb9ba9190439f8508890f3de74d66",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0a0af661f8f4e41",
+    "pf": "frmDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 10
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_fd3b3e18d9e64895b15a7b70a9e65b93": {
+        "id": "AS_Form_fd3b3e18d9e64895b15a7b70a9e65b93",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDPRInfo",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga4ca5655bd5413ebd45a6149cfc2a7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f27c6cd7376944c789bba1c23967e38f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyGestureAndSwipeAnimation();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

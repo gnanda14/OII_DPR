@@ -1,0 +1,15 @@
+{
+  "appleprodmode" : "true",
+  "iphonecertprod" : {
+    "name" : "Certificates.p12",
+    "passwd" : "password",
+    "key" : "com.oceaneering.oms"
+  },
+  "android" : {
+    "key" : "AAAAGJv8lHY:APA91bHunhzWmCuOHgGhKahSsLgbTkPdAS9xKjq3U0MIYHPvjvz2x5gedJhrx2PK70IvcqhZuDeWX3HO9tPqfy0bxt_hdIcUJaVHyNe-Jvl4xzF5IuKPWWHf7Snja3lyOioBiR87FnQD"
+  },
+  "ipadDevCertNameModified" : false,
+  "ipadProdCertNameModified" : false,
+  "iphoneDevCertNameModified" : false,
+  "iphoneProdCertNameModified" : true
+}

@@ -1,0 +1,57 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "canvasWidth",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "canvasHeight",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "isCancelVisible",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "textCancel",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "skinCancel",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "penColor",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "saveTo",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "saveAs",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "canvasBackground",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "saveSignature",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["getSignatureFromDevice"],
+        "events": ["onClick", "onSaveImageSuccess", "onSaveImageFailure", "onErrorCallback", "onCheckValidity", "onCancel"]
+    }
+});

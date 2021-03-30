@@ -1,0 +1,6 @@
+{
+  "filename": "luavmandroid.apk",
+  "description": "OII-DPR: Features\nLogin, Projects, DPR's History, Timesheet ( Edit , create , Delete ), Signature, DPR (Recover, Clone, Delete),\nEvents , Roster",
+  "appicon": {"filename": "appstore.png"},
+  "version": "1.0.4"
+}

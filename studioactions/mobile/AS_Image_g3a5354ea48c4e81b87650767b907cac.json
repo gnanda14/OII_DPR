@@ -1,0 +1,23 @@
+{
+    "AS_Image_g3a5354ea48c4e81b87650767b907cac": {
+        "id": "AS_Image_g3a5354ea48c4e81b87650767b907cac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_e13e153ce3fb4852b586e200ba4c4f91",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtCrewSearch.text.length>2)\nthis.getSearchCrewResults(this.view.txtCrewSearch.text);\nelse\nalert(\"Please enter 3 or more characters to search\");",
+            "callbackType": null
+        }]
+    }
+}

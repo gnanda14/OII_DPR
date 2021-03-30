@@ -1,0 +1,37 @@
+{
+    "AS_Button_g0ac6ad8a01e4ce297a537866618d17f": {
+        "id": "AS_Button_g0ac6ad8a01e4ce297a537866618d17f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempSegCrewDetail",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cd8e9ec9a8ee4f49897b4a4f7c74f4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ab6552609f424c18af3e92e3f7118475",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRowIndexValueForDelete",
+            "display": "getRowIndexValueForDelete",
+            "inputparams": [{
+                "name": "obj",
+                "value": " eventobject"
+            }, {
+                "name": "context",
+                "value": " context"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

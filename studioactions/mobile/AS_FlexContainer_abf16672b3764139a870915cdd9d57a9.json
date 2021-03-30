@@ -1,0 +1,37 @@
+{
+    "AS_FlexContainer_abf16672b3764139a870915cdd9d57a9": {
+        "id": "AS_FlexContainer_abf16672b3764139a870915cdd9d57a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tempSegCrewDetail",
+            "type": "templates",
+            "platform": "",
+            "KUID": "cd8e9ec9a8ee4f49897b4a4f7c74f4c6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ic06077051174aac800775ffc4bab879",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getRowIndexValueForDelete",
+            "display": "getRowIndexValueForDelete",
+            "inputparams": [{
+                "name": "obj",
+                "value": ""
+            }, {
+                "name": "context",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

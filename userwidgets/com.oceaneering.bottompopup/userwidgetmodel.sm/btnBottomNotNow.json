@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sec98887747a40ab9d1fae1b8b67380b",
+    "_text_": "Not Now",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sec98887747a40ab9d1fae1b8b67380b",
+    "id": "btnBottomNotNow",
+    "ide_onClick": "AS_Button_e62486b6afc941ffbe282aa6e03121ff",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bce29108a6214455928cc4fda59f980e",
+    "name": "kony.ui.Button",
+    "parent": "flxEnableTouch",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

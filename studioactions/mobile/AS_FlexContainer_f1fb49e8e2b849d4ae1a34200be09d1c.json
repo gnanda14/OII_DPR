@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_f1fb49e8e2b849d4ae1a34200be09d1c": {
+        "id": "AS_FlexContainer_f1fb49e8e2b849d4ae1a34200be09d1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ca1160e24d084d838fc6ae70d4836db1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.isAuthUsingTouchSupported();",
+            "callbackType": null
+        }]
+    }
+}

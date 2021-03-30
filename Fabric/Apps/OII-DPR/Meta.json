@@ -1,0 +1,51 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "OII-DPR",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "DPRToken",
+    "version" : "1.0",
+    "etag" : "c58e1428-88af-410a-9445-6c376df02b7c"
+  }, {
+    "name" : "GetDPRImage",
+    "version" : "1.0",
+    "etag" : "89aed285-f92d-4c2f-b0cb-acae8abb0a6d"
+  }, {
+    "name" : "OMSAuthentication",
+    "version" : "1.0",
+    "etag" : "bf3fcbbd-6e47-4ca3-a344-6063b19c9aa1"
+  }, {
+    "name" : "PeopleSearchResult",
+    "version" : "1.0",
+    "etag" : "e6516797-26d3-4238-b45a-6d18533b343c"
+  }, {
+    "name" : "Project",
+    "version" : "1.0",
+    "etag" : "49d30419-4b28-4a8e-a4d9-37fad0ad077b"
+  }, {
+    "name" : "PushAppUsageData",
+    "version" : "1.0",
+    "etag" : "f90829a8-dc4d-41b5-b6de-9980cccb996a"
+  }, {
+    "name" : "PushNotificationConfigure",
+    "version" : "1.0",
+    "etag" : "bc9ca983-51dd-491d-9506-d59f3608c6e9"
+  }, {
+    "name" : "StagingDBOMS",
+    "version" : "1.0",
+    "etag" : "637aae88-ffd5-4e82-b66f-fe92d1b125c1"
+  }, {
+    "name" : "SubmitDPR",
+    "version" : "1.0",
+    "etag" : "32413b1e-79b1-4b29-b4ee-b91581f33cd1"
+  }, {
+    "name" : "TokenCreateForEmpSearch",
+    "version" : "1.0",
+    "etag" : "0f0825a0-dd6a-4ed1-a5ae-1b71bc0eb7a0"
+  }, {
+    "name" : "uploadImageService",
+    "version" : "1.0",
+    "etag" : "305989e2-eea0-4c05-a903-b585ab0bd1d8"
+  } ]
+}

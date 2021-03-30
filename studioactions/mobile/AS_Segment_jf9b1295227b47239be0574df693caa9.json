@@ -1,0 +1,24 @@
+{
+    "AS_Segment_jf9b1295227b47239be0574df693caa9": {
+        "id": "AS_Segment_jf9b1295227b47239be0574df693caa9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHistory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a44b1ef4f8e245e6ad37f9c96e4d6cba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fc0af99896e74562871b377baf254703",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

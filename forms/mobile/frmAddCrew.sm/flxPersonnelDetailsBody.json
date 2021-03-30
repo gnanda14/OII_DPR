@@ -1,0 +1,90 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s10ca4dda28940578c14c1052a5f5192",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxCrewSearch",
+        "flxHeaderPersonnel",
+        "flxName",
+        "FlexContainer0cc930f2aae2d46",
+        "CopyFlexContainer0jbac4fcf0e374f",
+        "flxEmployeeID",
+        "CopyFlexContainer0caed1f601f5d47",
+        "flxJobPosition",
+        "CopyFlexContainer0ff02b0b4ac4243",
+        "flxCrewPosition",
+        "CopyflxHeaderPersonnel0ifac55a504a044",
+        "CopyFlexContainer0gedbb79f76e246",
+        "CopyFlexContainer0d82e532d185344",
+        "fllxDayHourRate",
+        "CopyFlexContainer0d06f83c0ce4646",
+        "flxOTRate",
+        "CopyFlexContainer0e713c60845bc44",
+        "flxStandByRate",
+        "CopyFlexContainer0a1577bd342874e",
+        "flxNonDiveRate",
+        "CopyFlexContainer0hdb68864a86b4a",
+        "CopyFlexContainer0bba32823f29b46",
+        "flxArrivalDate",
+        "CopyFlexContainer0g129242b5e5f47",
+        "flxDepartDate",
+        "CopyFlexContainer0b760707dfaa94e"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxPersonnelDetailsBody",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c5f50c3c30bc4b3cb67202447e0be994",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "frmAddCrew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

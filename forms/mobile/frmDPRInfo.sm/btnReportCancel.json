@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd7df4a0655c4a378a8e3280783c952e",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s71f27fff5f949b296279097f994a1b5",
+    "id": "btnReportCancel",
+    "ide_onClick": "AS_Button_ha0fd4e4cbc04a67981b150e487550c4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e96e0adc05d94828a4fcb0fa92c0ed29",
+    "name": "kony.ui.Button",
+    "parent": "flxEnableTouch",
+    "pf": "frmDPRInfo",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
