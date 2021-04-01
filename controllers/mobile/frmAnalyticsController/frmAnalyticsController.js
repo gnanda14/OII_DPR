@@ -1,10 +1,6 @@
 var DataOnClickOfChart = [];
 var DataOnClickOfChartBasic = [];
 define({ 
-  
-  
-
-  //Type your controller code here 
   onNavigate: function(navigationData) {
     commonUtils.addbottompopup(this);
     this.view.preShow = this.preShow.bind(this, navigationData);
@@ -313,9 +309,16 @@ define({
         "kuid": "eb549f95677149b7bb50cb8f1ec791d7"
       }]
     };
+    //#ifdef iphone
+    chartjs.fontSize = "35";
+    //#endif
+
+    //#ifdef android
     chartjs.fontSize = "12";
+    //#endif
+    
     chartjs.renderType = true;
-    chartjs.fontColor = "#ffffff";
+    chartjs.fontColor = "#FFFFFF";
     chartjs.titlePosition = "bottom";
     chartjs.legendPosition = "bottom";
     chartjs.easing = "easeOutQuart";
@@ -323,7 +326,6 @@ define({
     chartjs.fontStyle = "normal";
     this.view.flxDonut.setVisibility(true);
     this.view.flxDonut.add(chartjs);
-
   },
 
   createDonut : function(createChartData){
@@ -345,15 +347,17 @@ define({
     donutChart.chartData ={
       "data": createChartData
     };
-    donutChart.enableLegend = false;donutChart.legendFontColor = "#000000";donutChart.legendFontSize = "8";
+    donutChart.enableLegend = false;
+    donutChart.legendFontColor = "#FFFFFF";
+    donutChart.legendFontSize = "8";
     donutChart.chartTitle = "";
-    donutChart.titleFontColor = "#000000";
-    donutChart.titleFontSize = 12;
+    donutChart.titleFontColor = "#FFFFFF";
+    donutChart.titleFontSize = "12";
     this.view.flxDonut.setVisibility(true);
     this.view.flxDonut.add(donutChart);
 
   },
-  
+
   showDataOnClickOfChartBasic : function(Data){
     var showTimesheets = DataOnClickOfChart.filter(details => details.str_systemid == DataOnClickOfChartBasic[Data.index].label );
     formStack.push({
@@ -368,7 +372,7 @@ define({
       "hours" : DataOnClickOfChartBasic[Data.index].value
     });
   },
-  
+
   showDataOnClickOfChart : function(Data){
     var showTimesheets = DataOnClickOfChart.filter(details => details.str_systemid == Data.projId );
     formStack.push({
@@ -560,7 +564,7 @@ define({
                           "#0A7CBE", "#50B0C8", "#0099FF", "#66CCFF", "#3399FF",  "#0066FF", "#0E98BE",
                           "#8FA3D9", "#7489CE", "#7489CE", "#8B6DA8", "#A021E2", "#C229EB", "#DA53EE",
                           "#769FCA", "#A2D1E6", "#1CA3DE", "#188AF0", "#00B7D8", "#307690", "#09EBEE"];
-                          
+
         var colors = ColorCodes.slice(0, finalArray.length);
         colors = colors.toString();
         colors.replace(",", ", ");
@@ -582,7 +586,7 @@ define({
           data.push(bill_hours.toString());
         }
         var pushDataNew = {
-          "bgColor": "#ffffff",
+          "bgColor": "#FFFFFF",
           "chartType": "Doughnut",
           "color": "[" + colors.toString() + "]",
           "data": "[" + data.toString() + "]",
@@ -600,8 +604,7 @@ define({
           DataOnClickOfChart = response;
           DataOnClickOfChartBasic = createBelowData;
           this.createInfoSection(createBelowData, response);
-
-        }else{
+        } else {
           self.view.lblNoRecords.setVisibility(true);
           self.view.flxInfoMain.setVisibility(false);
           self.view.flxDonut.setVisibility(false);
@@ -609,9 +612,7 @@ define({
           self.view.forceLayout();
           self.view.flxDonut.removeAll();      
         }
-
-
-      }else{
+      } else {
         this.dismissLoading();
         this.view.lblNoRecords.setVisibility(true);
         this.view.flxInfoMain.setVisibility(false);
@@ -685,17 +686,17 @@ define({
       this.view.calEndDate.dateComponents = previousEndDate;
     }
   },
-  
+
   dismissLoadingIndicator: function () {
     this.view.flxLoading.setVisibility(false);
     this.view.flxMain.setEnabled(true);
   },
-  
+
   toggleLoadingIndicator : function(value){
     this.view.flxLoading.setEnabled(!value);
     this.view.flxLoading.setVisibility(value);
   },
-  
+
   showErrorMessage : function(text){
     this.dismissLoadingIndicator();
     var inp = {

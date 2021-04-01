@@ -18,7 +18,7 @@ define(function() {
         var brwsr = new kony.ui.Browser(extendConfig({
             "detectTelNumber": true,
             "enableNativeCommunication": true,
-            "enableZoom": true,
+            "enableZoom": false,
             "height": "100%",
             "id": "brwsr",
             "isVisible": true,

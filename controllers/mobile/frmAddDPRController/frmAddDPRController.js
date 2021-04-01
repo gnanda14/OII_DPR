@@ -4413,10 +4413,9 @@ define({
       kony.timer.schedule("uploading", () => {
         kony.timer.cancel("uploading");
         self.dismissBottomPopup();
-      }, 2, false);
+      }, 4, false);
       param.str_attachmentValue = base64NPWP;
       commonUtils.addAttachment(param).then((res)=>{
-        self.dismissBottomPopup();
         self.HideFileUploadPopUp();
         delete param.str_attachmentValue;
         commonUtils.addAttachmentList(param).then((res) => { 
