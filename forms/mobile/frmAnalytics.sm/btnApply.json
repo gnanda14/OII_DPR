@@ -20,7 +20,7 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0%"
+        "value": "3%"
     },
     "_skin_": "s65e3a8022164100b6e26c371daa306a",
     "_text_": "Apply",
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "40%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "15%"
+        "value": "8%"
     },
     "_height_": {
         "type": "string",
-        "value": "35%"
+        "value": "43%"
     },
     "_left_": {
         "type": "string",
@@ -30,7 +30,7 @@
     "_skin_": "sad115ab4b9c44459ce4adc827bb1122",
     "_width_": {
         "type": "string",
-        "value": "84%"
+        "value": "92%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -40,8 +40,8 @@
         "value": "50%"
     },
     "children": [
-        "btnClear",
-        "btnApply"
+        "btnApply",
+        "btnClear"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,13 +51,14 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "bfd85e637767460bbdca215a0ac1b6b2",
-    "layouttype": 2,
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "flxFilters",
     "pf": "frmAnalytics",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": true,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

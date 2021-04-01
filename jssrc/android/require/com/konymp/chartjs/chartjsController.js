@@ -21,8 +21,8 @@ define("com/konymp/chartjs/userchartjsController", function() {
             this._animation = {};
             this.rendered = false;
             this.view.brwsr.onPageFinished = this.render.bind(this);
-            this.view.brwsr.enableZoom = false;
-            this.view.brwsr.bounces = false;
+            //       this.view.brwsr.enableZoom = false;
+            //       this.view.brwsr.bounces=false;
             konymp_chartjs_global_function = function(ready) {
                 this.rendered = true;
                 this.render();
@@ -314,7 +314,7 @@ define("com/konymp/chartjs/userchartjsController", function() {
                     data: this.getDataObject(record),
                     options: this.getOptionObject(record)
                 };
-                if (chartObject.type === 'line' || chartObject.type === 'horizontalBar' || chartObject.type === 'bar' || chartObject.type === 'radar' || chartObject.type == 'doughnut') chartObject = this.addLabelToChart(chartObject);
+                if (chartObject.type === 'line' || chartObject.type === 'horizontalBar' || chartObject.type === 'bar' || chartObject.type === 'radar') chartObject = this.addLabelToChart(chartObject);
                 return chartObject;
             } catch (exception) {
                 konymp.logger.trace("----------Exception---------", konymp.logger.FUNCTION_EXIT);
@@ -420,11 +420,11 @@ define("com/konymp/chartjs/userchartjsController", function() {
                     responsive: true,
                     chartArea: {
                         backgroundColor: record.bgColor || "#ffffff"
-                    },
-                    labels: {
-                        fontColor: "blue",
-                        fontSize: 18
                     }
+                    //           labels: {
+                    //             fontColor: "blue",
+                    //             fontSize: 18
+                    //           }
                 };
                 return options;
             } catch (exception) {

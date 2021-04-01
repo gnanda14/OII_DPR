@@ -6,10 +6,6 @@
         "type": "string",
         "value": "100%"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_margin_": [
         6,
         6,
@@ -22,6 +18,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
     "_skin_": "s4054a8eb8214b7892d811c72bb35832",
     "_text_": "Clear",
     "_top_": {
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "40%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
